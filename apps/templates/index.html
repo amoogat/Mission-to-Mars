@@ -57,6 +57,19 @@
           </div>
         </div>
       </div>
+      <!-- Hemi Images -->
+      <div class = "row" id = "hemisphere-images">
+        <div class = "col-md-8">
+          <h2>Hemisphere Images </h2>
+
+          <!-- checks if image works else defaults to a message -->
+          <img
+            src = "{{ mars.hemispheres | default('static/images/error.png', true) }}"
+            class = "img-responsive"
+            alt = "Responsive image"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>

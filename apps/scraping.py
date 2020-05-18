@@ -78,9 +78,8 @@ def featured_image(browser):
 
     # Uses base url to make absolute url
     img_url = f'https://www.jpl.nasa.gov{img_url_rel}'
-
     return img_url
-
+    
 def mars_facts():
     # try/ except for error handling
     try:
